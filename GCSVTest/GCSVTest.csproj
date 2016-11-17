@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -51,8 +51,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GCSV\GCSV\GCSV.csproj">
-      <Project>{CC980456-9BB4-44BA-B700-9C869CF38405}</Project>
+    <ProjectReference Include="..\GCSV\GCSV.csproj">
+      <Project>{cc980456-9bb4-44ba-b700-9c869cf38405}</Project>
       <Name>GCSV</Name>
     </ProjectReference>
   </ItemGroup>
