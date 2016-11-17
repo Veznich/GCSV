@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCSV", "GCSV\GCSV.csproj", "{CC980456-9BB4-44BA-B700-9C869CF38405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCSVTest", "..\GCSVTest\GCSVTest.csproj", "{5A36F8BD-765D-4326-B58D-46329CD74084}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC980456-9BB4-44BA-B700-9C869CF38405} = {CC980456-9BB4-44BA-B700-9C869CF38405}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC980456-9BB4-44BA-B700-9C869CF38405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC980456-9BB4-44BA-B700-9C869CF38405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC980456-9BB4-44BA-B700-9C869CF38405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC980456-9BB4-44BA-B700-9C869CF38405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A36F8BD-765D-4326-B58D-46329CD74084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A36F8BD-765D-4326-B58D-46329CD74084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A36F8BD-765D-4326-B58D-46329CD74084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A36F8BD-765D-4326-B58D-46329CD74084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
